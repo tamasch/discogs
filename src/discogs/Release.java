@@ -22,12 +22,17 @@ public class Release {
 	private Date released;
 	private List<Genre> genre;
 	private List<Style> style;
+	private String notes;
+	private boolean master;
 	
 
 	public float getId() {
 		return id;
 	}
 	
+	public String getCatalogNumber() {
+		return catalogNumber;
+	}
 
 	public String getTitle() {
 		return title;
@@ -67,4 +72,15 @@ public class Release {
 	public List<Style> getStyle() {
 		return style;
 	}
+	
+
+	public String getNotes() {
+		return notes;
+	}
+	
+
+	public boolean isMaster() {
+		return master;
+	}
+	
 }
