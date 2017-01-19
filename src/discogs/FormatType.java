@@ -30,7 +30,7 @@ public enum FormatType {
 	_4_TRACK_CARTRIDGE("4-Track Cartridge"),
 	_8_TRACK_CARTRIDGE("8-Track Cartridge"),
 	CASSETTE("Cassette"),
-	PLAYTAPE("PlayTape"),
+	PLAYTAPE("PlayTape"), 
 	TEFIFON("Tefifon"),
 	DAT("DAT"),
 	DCC("DCC"),
